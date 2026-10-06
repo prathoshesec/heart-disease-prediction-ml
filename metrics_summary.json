@@ -1,0 +1,177 @@
+{
+  "dataset": "UCI Heart Disease Cleveland (Dataset ID 45)",
+  "best_model_name": "SVM",
+  "results": [
+    {
+      "model": "Random Forest",
+      "accuracy": 0.8167,
+      "precision": 0.84,
+      "recall": 0.75,
+      "f1": 0.7925,
+      "roc_auc": 0.9408,
+      "cv_accuracy": 0.818,
+      "cv_mean_acc": 0.818,
+      "cv_std": 0.0332,
+      "use_scaled": false
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.8333,
+      "precision": 0.8462,
+      "recall": 0.7857,
+      "f1": 0.8148,
+      "roc_auc": 0.9498,
+      "cv_accuracy": 0.828,
+      "cv_mean_acc": 0.828,
+      "cv_std": 0.0355,
+      "use_scaled": true
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.8167,
+      "precision": 0.84,
+      "recall": 0.75,
+      "f1": 0.7925,
+      "roc_auc": 0.8917,
+      "cv_accuracy": 0.7908,
+      "cv_mean_acc": 0.7908,
+      "cv_std": 0.0542,
+      "use_scaled": false
+    },
+    {
+      "model": "SVM",
+      "accuracy": 0.85,
+      "precision": 0.88,
+      "recall": 0.7857,
+      "f1": 0.8302,
+      "roc_auc": 0.9531,
+      "cv_accuracy": 0.8179,
+      "cv_mean_acc": 0.8179,
+      "cv_std": 0.0468,
+      "use_scaled": true
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.8333,
+      "precision": 0.8462,
+      "recall": 0.7857,
+      "f1": 0.8148,
+      "roc_auc": 0.9408,
+      "cv_accuracy": 0.8214,
+      "cv_mean_acc": 0.8214,
+      "cv_std": 0.0402,
+      "use_scaled": true
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.75,
+      "precision": 0.76,
+      "recall": 0.6786,
+      "f1": 0.717,
+      "roc_auc": 0.7919,
+      "cv_accuracy": 0.7507,
+      "cv_mean_acc": 0.7507,
+      "cv_std": 0.0561,
+      "use_scaled": false
+    }
+  ],
+  "feature_importance": {
+    "cp": 0.1648,
+    "thal": 0.1426,
+    "ca": 0.1196,
+    "thalach": 0.1153,
+    "oldpeak": 0.1101,
+    "age": 0.076,
+    "trestbps": 0.061,
+    "slope": 0.0584,
+    "chol": 0.0546,
+    "exang": 0.0449,
+    "sex": 0.0279,
+    "restecg": 0.017,
+    "fbs": 0.0079
+  },
+  "confusion_matrices": {
+    "Random Forest": [
+      [
+        28,
+        4
+      ],
+      [
+        7,
+        21
+      ]
+    ],
+    "Logistic Regression": [
+      [
+        28,
+        4
+      ],
+      [
+        6,
+        22
+      ]
+    ],
+    "Gradient Boosting": [
+      [
+        28,
+        4
+      ],
+      [
+        7,
+        21
+      ]
+    ],
+    "SVM": [
+      [
+        29,
+        3
+      ],
+      [
+        6,
+        22
+      ]
+    ],
+    "KNN": [
+      [
+        28,
+        4
+      ],
+      [
+        6,
+        22
+      ]
+    ],
+    "Decision Tree": [
+      [
+        26,
+        6
+      ],
+      [
+        9,
+        19
+      ]
+    ]
+  },
+  "dataset_size": 297,
+  "train_size": 237,
+  "test_size": 60,
+  "feature_cols": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "target_distribution": {
+    "no_disease_0": 160,
+    "disease_1": 137
+  }
+}
