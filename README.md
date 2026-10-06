@@ -1,38 +1,32 @@
-ஆம் da 👍 புரிஞ்சுது. நீ அனுப்பிய **LIBDEMAND AI README format மாதிரியே**, உன் **Heart Disease Prediction Using Machine Learning** project-க்கு GitHub `README.md` content வேண்டும்.
-
-உன் actual project details-க்கு match ஆகும் மாதிரி கீழே ready-to-paste version கொடுக்கிறேன்.
-
----
-
-# ❤️ HEART DISEASE PREDICTION USING MACHINE LEARNING
+ ❤️ HEART DISEASE PREDICTION USING MACHINE LEARNING
 
 A Machine Learning-powered Heart Disease Prediction System that analyzes patient health-related features, compares multiple machine learning algorithms, and predicts the presence of heart disease through an interactive Streamlit dashboard.
 
-**Live Website | Python | Streamlit | scikit-learn**
+Live Website | Python | Streamlit | scikit-learn**
 
-🌐 **Live Demo:**  
+🌐 Live Demo:  
 [Heart Disease Prediction – Live App](https://heart-disease-prediction-ml-h5rjbmyam5tkers3httcp.streamlit.app?utm_source=chatgpt.com)
 
 ---
 
-## 🌟 KEY HIGHLIGHTS & FEATURES
+🌟 KEY HIGHLIGHTS & FEATURES
 
-### 1. 🩺 Interactive Heart Disease Prediction
+1. 🩺 Interactive Heart Disease Prediction
 
-**Smart Inputs:**  
+Smart Inputs:
 Enter patient-related health parameters such as age, sex, chest pain type, blood pressure, cholesterol, maximum heart rate, and other clinical features.
 
-**Instant Prediction:**  
+Instant Prediction:
 The system analyzes the entered values and provides a predicted risk category.
 
-**Model Selection:**  
+Model Selection: 
 Users can select from the available trained machine learning models.
 
 ---
 
-### 2. 🤖 Machine Learning Model Dashboard
+2. 🤖 Machine Learning Model Dashboard
 
-**Multiple Algorithms:**  
+Multiple Algorithms: 
 The project compares multiple machine learning algorithms:
 
 - Random Forest
@@ -42,23 +36,23 @@ The project compares multiple machine learning algorithms:
 - K-Nearest Neighbors (KNN)
 - Decision Tree
 
-**Champion Model:**  
-🏆 **Support Vector Machine (SVM)**
+Champion Model: 
+🏆 Support Vector Machine (SVM)
 
-**Best Accuracy:**  
-🎯 **85.00%**
+Best Accuracy:  
+🎯 85.00%
 
 The SVM model achieved the best evaluation result among the models tested in this project.
 
 ---
 
-### 3. 📊 Model Performance Comparison
+3. 📊 Model Performance Comparison
 
 The application provides a comparison of the trained models.
 
 | Model | Accuracy |
 |---|---:|
-| 🏆 SVM | **85.00%** |
+| 🏆 SVM | 85.00% |
 | Logistic Regression | 83.33% |
 | KNN | 83.33% |
 | Random Forest | 81.67% |
@@ -67,36 +61,36 @@ The application provides a comparison of the trained models.
 
 ---
 
-### 4. 📈 Dataset Explorer & Analytics
+4. 📈 Dataset Explorer & Analytics
 
-**Dataset Information:**
+Dataset Information:
 
-- Dataset: **UCI Cleveland Heart Disease Dataset**
-- Raw records: **303**
-- Complete records used: **297**
-- Features: **13**
-- Classification: **Binary**
+- Dataset: UCI Cleveland Heart Disease Dataset
+- Raw records: 303
+- Complete records used: 297
+- Features: 13
+- Classification: Binary
 
 The dashboard provides dataset information and allows users to explore the available patient features and target distribution.
 
 ---
 
-### 5. 🧪 Sample Prediction Testing
+5. 🧪 Sample Prediction Testing
 
 The application can be tested using different patient input combinations.
 
-**High-Risk Sample:**  
+High-Risk Sample: 
 Used to demonstrate a higher predicted risk result.
 
-**Healthy Sample:**  
+Healthy Sample:  
 Used to demonstrate a lower predicted risk result.
 
-**Reset Option:**  
+Reset Option:  
 Allows the user to return the prediction inputs to their default values.
 
 ---
 
-## 📁 PROJECT DIRECTORY STRUCTURE
+📁 PROJECT DIRECTORY STRUCTURE
 
 ```text
 heart-disease-prediction-ml/
@@ -117,9 +111,9 @@ heart-disease-prediction-ml/
 
 ---
 
-# 🚀 QUICK START GUIDE
+🚀 QUICK START GUIDE
 
-## 1. 🌐 Launching the Live Application
+1. 🌐 Launching the Live Application
 
 Open the deployed Streamlit application:
 
@@ -159,21 +153,21 @@ The application will open in your browser.
 
 ---
 
-## 3. 📝 Testing the Prediction Workflow
+3. 📝 Testing the Prediction Workflow
 
 1. Open the application.
 2. Enter the patient-related input values.
 3. Select a machine learning model.
-4. Click **Analyze**.
+4. Click Analyze.
 5. View the predicted risk result.
 6. Compare model performance using the Model Benchmark section.
 7. Explore the dataset using Dataset Explorer.
 
 ---
 
-# 🧠 MODEL INPUT & OUTPUT QUICK REFERENCE
+🧠 MODEL INPUT & OUTPUT QUICK REFERENCE
 
-💻 This is a **software-only machine learning project**, so no physical hardware or wiring is required.
+💻 This is a "software-only machine learning project", so no physical hardware or wiring is required.
 
 | Type | Feature | Description |
 |---|---|---|
@@ -194,26 +188,26 @@ The application will open in your browser.
 
 ---
 
-# 📊 DATASET
+📊 DATASET
 
-### UCI Cleveland Heart Disease Dataset
+UCI Cleveland Heart Disease Dataset
 
-The project uses the **UCI Cleveland Heart Disease Dataset**.
+The project uses the UCI Cleveland Heart Disease Dataset.
 
-**Dataset statistics:**
+Dataset statistics:
 
-- Raw instances: **303**
-- Complete records used: **297**
-- No Disease: **160**
-- Disease: **137**
-- Features: **13**
+- Raw instances: 303
+- Complete records used: 297
+- No Disease: 160
+- Disease: 137
+- Features: 13
 - Target: Binary classification
 
 The original heart disease target values are converted into a binary classification for prediction.
 
 ---
 
-# 🤖 MACHINE LEARNING WORKFLOW
+🤖 MACHINE LEARNING WORKFLOW
 
 ```text
 UCI Cleveland Dataset
@@ -239,11 +233,11 @@ Heart Disease Risk Prediction
 
 ---
 
-# 🏆 CHAMPION MODEL
+🏆 CHAMPION MODEL
 
 ### Support Vector Machine — SVM
 
-**Accuracy: 85.00%**
+Accuracy: 85.00%
 
 SVM achieved the best evaluation result among the machine learning algorithms tested in this project.
 
@@ -251,7 +245,7 @@ The model is used to classify the input into the corresponding predicted risk ca
 
 ---
 
-# 🛠️ TECH STACK
+🛠️ TECH STACK
 
 | Layer | Technology |
 |---|---|
@@ -265,7 +259,7 @@ The model is used to classify the input into the corresponding predicted risk ca
 
 ---
 
-# 📌 PROJECT OBJECTIVES
+📌 PROJECT OBJECTIVES
 
 - To develop a machine learning-based heart disease prediction system.
 - To use a real-world heart disease dataset.
@@ -277,7 +271,7 @@ The model is used to classify the input into the corresponding predicted risk ca
 
 ---
 
-# 💡 PROJECT BENEFITS
+💡 PROJECT BENEFITS
 
 - Easy-to-use prediction interface.
 - Multiple machine learning models for comparison.
@@ -288,7 +282,7 @@ The model is used to classify the input into the corresponding predicted risk ca
 
 ---
 
-# ⚠️ DISCLAIMER
+⚠️ DISCLAIMER
 
 This project is developed for **educational and machine learning demonstration purposes only**.
 
@@ -298,28 +292,11 @@ The predictions generated by this application are model-based outputs and should
 
 ---
 
-# 📄 PROJECT LINKS
+📄 PROJECT LINKS
 
-🌐 **Live Application:**  
+🌐 Live Application:
 [Heart Disease Prediction – Streamlit App](https://heart-disease-prediction-ml-h5rjbmyam5tkers3httcp.streamlit.app?utm_source=chatgpt.com)
 
-💻 **GitHub Repository:**  
+💻 GitHub Repository:  
 [Heart Disease Prediction – GitHub Repository](https://github.com/prathoshesec/heart-disease-prediction-ml?utm_source=chatgpt.com)
 
----
-
-# 👨‍💻 DEVELOPED BY
-
-**Prathosh S**
-
-B.Tech – Artificial Intelligence and Data Science
-
-**Project:** Heart Disease Prediction Using Machine Learning
-
----
-
-## 🔥 GitHub-ல என்ன பண்ணணும்?
-
-உன் repository-ல இருக்கும் **`README.md`** file-ஐ open பண்ணி, மேலே கொடுத்த content-ஐ **full-aa replace** பண்ணி commit பண்ணு.
-
-அதுக்கப்புறம் உன் GitHub project page **LIBDEMAND AI மாதிரி professional-aa** இருக்கும்.
